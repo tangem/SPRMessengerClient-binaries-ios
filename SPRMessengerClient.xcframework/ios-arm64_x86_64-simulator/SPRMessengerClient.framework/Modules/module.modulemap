@@ -1,0 +1,6 @@
+framework module SPRMessengerClient {
+  umbrella header "SPRMessengerClient.h"
+  export *
+
+  module * { export * }
+}

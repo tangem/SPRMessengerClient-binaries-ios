@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Sprinklr" => "mobileteam@sprinklr.com" }
   spec.platform     = :ios, "10.0"
   # spec.source       = { :http => "https://clients-nexus.sprinklr.com/spr-messenger/ios/v0.0.1/SPRMessengerClient_iOS.zip" }
-  spec.source       = { :http => 'file:' + __dir__ + '/SPRMessengerClient.xcframework.zip' }
+  spec.source       = { :path => '.' }
   spec.vendored_frameworks = 'SPRMessengerClient.xcframework'
   spec.exclude_files = "Classes/Exclude"
   spec.frameworks = "Foundation", "UIKit"
